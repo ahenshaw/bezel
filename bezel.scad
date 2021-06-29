@@ -4,7 +4,11 @@ difference() {
         //roundedcube(20,10,0.3,1);
         //cube([20, 10, 0.3]);
         translate([0, 0, 0]) roundedcube(68, 35, 3, 2);
-        // translate([5, 5, 3.5]) #cube([58, 25, 0.1]);
+        //translate([5, 5, 3]) #cube([58, 25, .1]);
+        translate([5, 5, 3]) cube([3, 3, 1]);
+        translate([60, 5, 3]) cube([3, 3, 1]);
+        translate([5, 27, 3]) cube([3, 3, 1]);
+        translate([60, 27, 3]) cube([3, 3, 1]);
         // translate([ 3,   3, -1])  #cylinder(5, 2.6949, 2.6949);
     }
     // voids
